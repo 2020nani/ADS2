@@ -29,6 +29,25 @@ if($number % 9 == 0){
 }else{
     echo 'O numero nao e par';
 }
-
+//looping
+//laco for
+for($i = 0; $i<10; $i ++){
+echo "Mensagem numero $i";
+echo '<hr/>';
+};
+//laco while
+$contador = 0;
+while($contador <10){
+    $contador ++; 
+    echo "Mensagem while $contador";
+    echo '<hr/>';  
+};
+//laco do while
+$contador2 = 0;
+do{
+    $contador2 ++; 
+    echo "Mensagem dowhile $contador2";
+    echo '<hr/>';
+}while($contador2 < 10);
 ?>
 
