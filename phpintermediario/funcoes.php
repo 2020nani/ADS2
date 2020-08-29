@@ -50,4 +50,5 @@ echo '<hr/> Sem strip_tags = ' .$content ;
 //html entities que mostra o codigo html na pagina
 echo htmlentities('<div></div>');
 
+
 ?>
